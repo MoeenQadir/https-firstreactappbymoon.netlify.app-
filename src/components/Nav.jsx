@@ -1,5 +1,5 @@
 import React from "react";
-import lll  from '../assets/logo.png'
+import lll  from '../assets/img.png'
 function Nav() {
     return(
         <div>

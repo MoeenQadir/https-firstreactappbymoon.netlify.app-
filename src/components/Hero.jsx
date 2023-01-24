@@ -1,3 +1,7 @@
+import Team from "./Team";
+import Services from "./Services";
+import Footer from "./Footer";
+
 export default function Hero() {
     return (
         <>
@@ -85,6 +89,9 @@ export default function Hero() {
                     </div>
                 </div>
             </div>
+            <Team/>
+            <Services/>
+            <Footer/>
             {/* END CTA Section: Simple With Illustration */}
         </>
     )

@@ -2,6 +2,19 @@ import Team from "./Team";
 import Services from "./Services";
 import Footer from "./Footer";
 
+function Videos() {
+    return (
+        <>
+            <div className={"justify-center"} style={{alignContent:"center", justifyContent:"center", textAlign:"center"}}>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/hWfm7jdDaSc"
+                    title="YouTube video player" frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen></iframe>
+            </div>
+        </>
+    )
+}
+
 export default function Hero() {
     return (
         <>
@@ -91,6 +104,7 @@ export default function Hero() {
             </div>
             <Team/>
             <Services/>
+            <Videos/>
             <Footer/>
             {/* END CTA Section: Simple With Illustration */}
         </>
